@@ -1,0 +1,24 @@
+{
+  "name": "productred-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.20.2",
+    "consolidate": "^0.16.0",
+    "ejs": "^3.1.9",
+    "express": "^4.17.1",
+    "mongoose": "^7.1.0",
+    "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
