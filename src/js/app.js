@@ -574,7 +574,7 @@ handledynamicBid : function(token){
 handleViewWinner : function(token){
   console.log("View Winner Called");
   tokenId = token;
-  fetch(`http://localhost:3000/products/viewWinner/${tokenId}`).then(resp => resp.json()).then(data =>{
+  fetch(`https://prodred.herokuapp.com/products/viewWinner/${tokenId}`).then(resp => resp.json()).then(data =>{
     if(data && data.length > 0){
       console.log(data)
       if(data[0].sold = true){
